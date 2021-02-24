@@ -1,0 +1,30 @@
+/*General styling*/
+html, body {
+    height: 100%;
+}
+body {
+  font-size: 15px;
+  background-color: #282828;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.main_content{
+  position: relative;
+}
+/*table styling*/
+.main_table{
+  margin: auto;
+  margin-top: 50px;
+}
+table, td, th {
+  border: 1px solid #3c3f51;
+  border-bottom: none;
+}
+thead{
+  background-color: #353849;
+  color: #9398b6;
+}
+tbody{
+  background-color: #424558;
+  color: #e0e1e4;
+}
