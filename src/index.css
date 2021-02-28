@@ -1,0 +1,43 @@
+/*General styling*/
+body {
+  font-size: 15.7px;
+  background-color: #282828;
+  font-family: 'Roboto Mono', monospace;
+}
+
+table{ 
+  margin: auto;
+  margin-top: 50px;
+  border: 1px solid #3c3f51;
+}
+td, th{
+  border: 1px solid #3c3f51;
+  padding: 3px 8px 3px 8px;
+  width: 18em; 
+  text-align: left;
+}
+a{
+  padding: 5px; 
+}
+
+thead{
+  background-color: #353849;
+  color: #9398b6;
+}
+tbody{
+  background-color: #424558;
+  color: #e0e1e4;
+}
+
+input{
+  background: transparent;
+  border: none;
+  color: #9398b6;
+  transition: color 0.1s, background-color 0.1s;
+}
+
+input:focus{
+  background: #e0e1e4;
+  border-radius: 4px;
+  color: #282828;
+}
