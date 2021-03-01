@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# Table Manager
+#### Gabriel Esteban Castillo Ramirez
+### Introduction
+This project is a coding assessment for the company Fusionbase
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### General information
+This application displays the following data brought from an external .json resource on a table through the
+usage of the framework React, in this application is possible to both rename the column names and reordering them.
 
-## Available Scripts
+<img src="https://user-images.githubusercontent.com/43209755/78462649-9e87df80-7699-11ea-8516-bf0b8ca60ff1.png" width="560">
 
-In the project directory, you can run:
+### User's guide
+In this section we are going to explain the different interactions the user is able to do in this software.
 
-### `npm start`
+#### Rename the Columns
+This action can be done when the user clicks on the column title, after the name is modified the user can
+press Enter to exit the editor or click outside the text field.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<img src="https://user-images.githubusercontent.com/43209755/78462649-9e87df80-7699-11ea-8516-bf0b8ca60ff1.png" width="560">
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+#### Reorder the Columns
+This interaction can be executed by clicking the icon situated on every column title , after the column is selected, the user
+is able to select the column position the user wants to set.
 
-### `npm test`
+<img src="https://user-images.githubusercontent.com/43209755/78462650-9f207600-7699-11ea-9171-e64d9cb1d6d2.png" width="560">
+<img src="https://user-images.githubusercontent.com/43209755/78462650-9f207600-7699-11ea-9171-e64d9cb1d6d2.png" width="560">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Software structure
+The software uses the framework React and lays the main logic on Javascript.
+In addition, the design uses external sources such as : 
+<ol>
+  <li> Bootstrap v5.0.0-beta2 </li>
+  <li> Google Fonts </li>
+  <li> Font Awesome 4.7.0 </li>
+</ol>
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Execution
+The execution of this project requires Nodejs.
+By cloning this repository and running the line "npm start" inside a command line console, the project will run in
+the default browser.
