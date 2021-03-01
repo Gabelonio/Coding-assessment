@@ -1,7 +1,7 @@
 # Table Manager
 #### Gabriel Esteban Castillo Ramirez
 ### Introduction
-This project is a coding assessment for the company Fusionbase
+This project is a coding assessment Fusionbase
 
 ### General information
 This application displays the following data brought from an external .json resource on a table through the
