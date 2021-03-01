@@ -2,8 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-//import MainTable from './main_table'; 
-
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
