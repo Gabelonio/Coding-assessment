@@ -37,5 +37,6 @@ In addition, the design uses external sources such as :
 
 ### Execution
 The execution of this project requires Nodejs.
+
 By cloning this repository and running the line "npm start" inside a command line console, the project will run in
 the default browser.
