@@ -1,7 +1,7 @@
 # Table Manager
 #### Gabriel Esteban Castillo Ramirez
 ### Introduction
-This project is a coding assessment for Fusionbase
+This project is a coding assessment based on React
 
 ### General information
 This application displays the following data brought from an external .json resource on a table through the
@@ -36,7 +36,4 @@ In addition, the design uses external sources such as :
 </ol>
 
 ### Execution
-The execution of this project requires Nodejs.
-
-By cloning this repository and running the line "npm start" inside a command line console, the project will run in
-the default browser.
+You can access the application by clicking the following link :  [Table manager](https://gabelonio.github.io/Coding-assessment/). 
